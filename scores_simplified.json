@@ -1,0 +1,114 @@
+{
+  "MichelRosselli/apertus": {
+    "English": {
+      "@10%": {
+        "mean": 10.8,
+        "std": 2.4404006956964173
+      }
+    },
+    "Italian": {
+      "@10%": {
+        "mean": 10.1,
+        "std": 3.3482997343593826
+      }
+    },
+    "Portuguese": {
+      "@10%": {
+        "mean": 9.2,
+        "std": 1.6193277068654826
+      }
+    },
+    "Open_Sourceness": {
+      "mean": 10.0,
+      "std": 0.0
+    },
+    "VRAM": {
+      "mean": 9.5,
+      "std": 0.0
+    }
+  },
+  "gemma4:e4b": {
+    "English": {
+      "@10%": {
+        "mean": 16.8,
+        "std": 1.3165611772087666
+      }
+    },
+    "Italian": {
+      "@10%": {
+        "mean": 13.4,
+        "std": 2.716206504995115
+      }
+    },
+    "Portuguese": {
+      "@10%": {
+        "mean": 14.7,
+        "std": 2.6687491868330793
+      }
+    },
+    "Open_Sourceness": {
+      "mean": 7.5,
+      "std": 0.0
+    },
+    "VRAM": {
+      "mean": 11.2,
+      "std": 0.0
+    }
+  },
+  "mistral-small3.2:24b": {
+    "English": {
+      "@10%": {
+        "mean": 18.4,
+        "std": 3.339993346633426
+      }
+    },
+    "Italian": {
+      "@10%": {
+        "mean": 16.7,
+        "std": 3.4009802508492557
+      }
+    },
+    "Portuguese": {
+      "@10%": {
+        "mean": 15.6,
+        "std": 3.0623157540948935
+      }
+    },
+    "Open_Sourceness": {
+      "mean": 5.0,
+      "std": 0.0
+    },
+    "VRAM": {
+      "mean": 20.6,
+      "std": 0.0
+    }
+  },
+  "nemotron-cascade-2:30b": {
+    "English": {
+      "@10%": {
+        "mean": 22.2,
+        "std": 2.3475755815545347
+      }
+    },
+    "Italian": {
+      "@10%": {
+        "mean": 16.4,
+        "std": 3.204163957519444
+      }
+    },
+    "Portuguese": {
+      "@10%": {
+        "mean": 20.4,
+        "std": 2.5905812303633926
+      }
+    },
+    "Open_Sourceness": {
+      "mean": 7.5,
+      "std": 0.0
+    },
+    "VRAM": {
+      "mean": 25.0,
+      "std": 0.0
+    }
+  }
+}
