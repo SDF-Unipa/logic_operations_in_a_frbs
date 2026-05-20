@@ -1,3 +1,13 @@
+# Larsen fuzzy rule-based inference — Example 2 (full criteria case).
+#
+# Same inference engine as check_example_1.py (product T-norm, centroid defuzz)
+# but with five criteria: IT, PT, EN (benefit) + OSS (benefit) + VRAM (cost).
+# Rules encode expert knowledge about the joint impact of all five dimensions.
+#
+# Reference:
+#   Larsen, P. M. (1980). Industrial applications of fuzzy logic control.
+#   International Journal of Man-Machine Studies, 12(1), 3–10.
+#   https://doi.org/10.1016/S0020-7373(80)80050-2
 import csv
 from pathlib import Path
 
@@ -60,6 +70,8 @@ def load_memberships(path: Path) -> dict[str, dict[str, float]]:
 
 
 def product(values: list[float]) -> float:
+    # Product T-norm: α = Π μ(antecedent_k).  Used by Larsen (1980) as the
+    # rule-firing strength.
     result = 1.0
     for value in values:
         result *= value
@@ -103,6 +115,7 @@ RULES = [
 ]
 
 
+# Constant across models: Σ_r ∫μ_r(t)dt depends only on the output MFs.
 DENOMINATOR = sum(OUTPUT_SETS[rule["consequent"]]["integral_mu_dt"] for rule in RULES)
 
 

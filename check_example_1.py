@@ -1,3 +1,17 @@
+# Larsen fuzzy rule-based inference — Example 1 (positive Latin languages case).
+#
+# Implements centroid defuzzification for a Larsen-type fuzzy system (Larsen 1980):
+#   1. Load precomputed MF integrals (∫μ dt, ∫t·μ dt) from output_weight_integrals.csv.
+#   2. Load precomputed input membership values from trapezoidal_memberships.csv.
+#   3. For each model, fire each rule with strength α = Π μ(antecedent_k)
+#      (product T-norm, Larsen 1980, §2).
+#   4. Aggregate: score = Σ_r α_r · ∫t·μ_r dt  /  Σ_r ∫μ_r dt.
+#   5. Normalize across models so weights sum to 1.
+#
+# Reference:
+#   Larsen, P. M. (1980). Industrial applications of fuzzy logic control.
+#   International Journal of Man-Machine Studies, 12(1), 3–10.
+#   https://doi.org/10.1016/S0020-7373(80)80050-2
 import csv
 from pathlib import Path
 
@@ -60,6 +74,9 @@ def load_memberships(path: Path) -> dict[str, dict[str, float]]:
 
 
 def product(values: list[float]) -> float:
+    # Product T-norm: α = Π μ(antecedent_k).  Used by Larsen (1980) as the
+    # rule-firing strength; the product of membership values is the minimum
+    # upper bound on the AND-combination under the product T-norm.
     result = 1.0
     for value in values:
         result *= value
@@ -119,6 +136,8 @@ RULES = [
 ]
 
 
+# Denominator is constant across all models: Σ_r ∫μ_r(t)dt.
+# It depends only on the output MFs, not on the input data.
 DENOMINATOR = sum(OUTPUT_SETS[rule["consequent"]]["integral_mu_dt"] for rule in RULES)
 
 

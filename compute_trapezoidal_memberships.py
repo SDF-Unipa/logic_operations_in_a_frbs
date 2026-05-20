@@ -1,3 +1,18 @@
+# Builds the trapezoidal input membership table and optional reference plots.
+#
+# Each model's score distribution is represented as a trapezoidal fuzzy number
+#   trap(mean − 2σ, mean − 0.5σ, mean + 0.5σ, mean + 2σ)
+# whose overlap with each linguistic MF (Low / Medium / High) is the
+# max-min overlap degree:
+#   μ(dim, label) = max_t  min(model_curve(t), mf_curve(t))
+#
+# This is the membership value used as the rule-firing strength in the
+# Larsen fuzzy inference engine (Larsen 1980, §2).
+#
+# Reference:
+#   Larsen, P. M. (1980). Industrial applications of fuzzy logic control.
+#   International Journal of Man-Machine Studies, 12(1), 3–10.
+#   https://doi.org/10.1016/S0020-7373(80)80050-2
 from __future__ import annotations
 
 import argparse
@@ -15,6 +30,12 @@ from topsis_fuzzy.data_loader import convert_raw_data, load_raw_data
 from topsis_fuzzy.membership_functions import eval_mf_on_universe, scalar_mf
 
 
+# Fixed linguistic MFs for each input dimension.
+# Params (a, b, c, d) were fitted to the score distributions in
+# scores_simplified.json using the ±0.5σ / ±2σ convention:
+#   Low    → right-shoulder  (a==b: full membership below b, falls off to d)
+#   Medium → full trapezoid
+#   High   → left-shoulder  (c==d: rises from a, full membership above c)
 HARDCODED_TRAPEZOIDAL_MEMBERSHIP_FUNCTIONS: dict[str, dict[str, dict[str, tuple[float, float, float, float] | str]]] = {
     "EN": {
         "Low": {"type": "trap", "params": (2.823, 2.823, 7.565, 14.679)},
@@ -49,6 +70,9 @@ LABEL_ORDER = ("Low", "Medium", "High")
 
 
 def trapezoidal_fuzzy_number(mean: float, std: float) -> tuple[float, float, float, float]:
+    # Encodes a score distribution as trap(mean−2σ, mean−0.5σ, mean+0.5σ, mean+2σ).
+    # The plateau [mean−0.5σ, mean+0.5σ] captures the central 68% of scores;
+    # the slopes extend to ±2σ to represent distribution uncertainty.
     return (mean - 2.0 * std, mean - 0.5 * std, mean + 0.5 * std, mean + 2.0 * std)
 
 
@@ -68,6 +92,9 @@ def build_trapezoidal_dataset(data: dict[str, dict[str, dict[str, float]]]) -> d
 
 
 def make_universe(model_trap: tuple[float, float, float, float], mf_def: dict, points: int = 20001) -> np.ndarray:
+    # Universe must span both the model trapezoid and the linguistic MF so that
+    # the pointwise minimum is evaluated wherever either curve is nonzero.
+    # A 5% margin prevents boundary artifacts from numerical integration.
     left = model_trap[0]
     right = model_trap[-1]
 
@@ -88,6 +115,11 @@ def make_universe(model_trap: tuple[float, float, float, float], mf_def: dict, p
 
 
 def overlap_membership(model_trap: tuple[float, float, float, float], set_mf: dict, points: int = 20001) -> float:
+    # Computes the max-min overlap degree:
+    #   μ = max_t  min(model_curve(t), set_mf_curve(t))
+    # This is the height of the intersection of two fuzzy sets, used as the
+    # input membership value in the Larsen inference engine (Larsen 1980, §2).
+    # Singleton models (std ≈ 0) degenerate to direct MF evaluation at the mean.
     a, b, c, d = model_trap
     is_singleton = np.isclose(a, b) and np.isclose(b, c) and np.isclose(c, d)
 
