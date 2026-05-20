@@ -1,0 +1,1213 @@
+{
+  "perturbation_pct": 0.025,
+  "global_seed": 42,
+  "n_runs": 100,
+  "runs": [
+    {
+      "run": 1,
+      "seed": 42,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 2,
+      "seed": 43,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 3,
+      "seed": 44,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 4,
+      "seed": 45,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 5,
+      "seed": 46,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 6,
+      "seed": 47,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 7,
+      "seed": 48,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 8,
+      "seed": 49,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 9,
+      "seed": 50,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 10,
+      "seed": 51,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 11,
+      "seed": 52,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 12,
+      "seed": 53,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 13,
+      "seed": 54,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 14,
+      "seed": 55,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 15,
+      "seed": 56,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 16,
+      "seed": 57,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 17,
+      "seed": 58,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 18,
+      "seed": 59,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 19,
+      "seed": 60,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 20,
+      "seed": 61,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 21,
+      "seed": 62,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 22,
+      "seed": 63,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 23,
+      "seed": 64,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 24,
+      "seed": 65,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 25,
+      "seed": 66,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 26,
+      "seed": 67,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 27,
+      "seed": 68,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 28,
+      "seed": 69,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 29,
+      "seed": 70,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 30,
+      "seed": 71,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 31,
+      "seed": 72,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 32,
+      "seed": 73,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 33,
+      "seed": 74,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 34,
+      "seed": 75,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 35,
+      "seed": 76,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 36,
+      "seed": 77,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 37,
+      "seed": 78,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 38,
+      "seed": 79,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 39,
+      "seed": 80,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 40,
+      "seed": 81,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 41,
+      "seed": 82,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 42,
+      "seed": 83,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 43,
+      "seed": 84,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 44,
+      "seed": 85,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 45,
+      "seed": 86,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 46,
+      "seed": 87,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 47,
+      "seed": 88,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 48,
+      "seed": 89,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 49,
+      "seed": 90,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 50,
+      "seed": 91,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 51,
+      "seed": 92,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 52,
+      "seed": 93,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 53,
+      "seed": 94,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 54,
+      "seed": 95,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 55,
+      "seed": 96,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 56,
+      "seed": 97,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 57,
+      "seed": 98,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 58,
+      "seed": 99,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 59,
+      "seed": 100,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 60,
+      "seed": 101,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 61,
+      "seed": 102,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 62,
+      "seed": 103,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 63,
+      "seed": 104,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 64,
+      "seed": 105,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 65,
+      "seed": 106,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 66,
+      "seed": 107,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 67,
+      "seed": 108,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 68,
+      "seed": 109,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 69,
+      "seed": 110,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 70,
+      "seed": 111,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 71,
+      "seed": 112,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 72,
+      "seed": 113,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 73,
+      "seed": 114,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 74,
+      "seed": 115,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 75,
+      "seed": 116,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 76,
+      "seed": 117,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 77,
+      "seed": 118,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 78,
+      "seed": 119,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 79,
+      "seed": 120,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 80,
+      "seed": 121,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 81,
+      "seed": 122,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 82,
+      "seed": 123,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 83,
+      "seed": 124,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 84,
+      "seed": 125,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 85,
+      "seed": 126,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 86,
+      "seed": 127,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 87,
+      "seed": 128,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 88,
+      "seed": 129,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 89,
+      "seed": 130,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 90,
+      "seed": 131,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 91,
+      "seed": 132,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 92,
+      "seed": 133,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 93,
+      "seed": 134,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 94,
+      "seed": 135,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 95,
+      "seed": 136,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 96,
+      "seed": 137,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 97,
+      "seed": 138,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 98,
+      "seed": 139,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 99,
+      "seed": 140,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    },
+    {
+      "run": 100,
+      "seed": 141,
+      "kendall_tau": 1.0,
+      "kendall_pvalue": 0.08333333333333333,
+      "ranking": [
+        "nemotron-cascade-2:30b",
+        "mistral-small3.2:24b",
+        "gemma4:e4b",
+        "MichelRosselli/apertus"
+      ]
+    }
+  ],
+  "stats": {
+    "mean_kendall_tau": 1.0,
+    "std_kendall_tau": 0.0,
+    "min_kendall_tau": 1.0,
+    "max_kendall_tau": 1.0
+  }
+}

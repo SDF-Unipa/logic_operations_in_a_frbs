@@ -1,0 +1,108 @@
+{
+  "global_seed": 42,
+  "n_runs": 100,
+  "original_ranking": [
+    "gemma4:e4b",
+    "MichelRosselli/apertus",
+    "mistral-small3.2:24b",
+    "nemotron-cascade-2:30b"
+  ],
+  "tolerances": [
+    {
+      "perturbation_pct": 0.01,
+      "label": "pct_1",
+      "mean_kendall_tau": 0.97,
+      "std_kendall_tau": 0.09539392014169451,
+      "min_kendall_tau": 0.6666666666666669,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.025,
+      "label": "pct_2p5",
+      "mean_kendall_tau": 0.92,
+      "std_kendall_tau": 0.14236104336041744,
+      "min_kendall_tau": 0.6666666666666669,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.05,
+      "label": "pct_5",
+      "mean_kendall_tau": 0.8033333333333335,
+      "std_kendall_tau": 0.28321566183936775,
+      "min_kendall_tau": 0.0,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.1,
+      "label": "pct_10",
+      "mean_kendall_tau": 0.6633333333333334,
+      "std_kendall_tau": 0.3214377423735772,
+      "min_kendall_tau": 0.0,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.15,
+      "label": "pct_15",
+      "mean_kendall_tau": 0.56,
+      "std_kendall_tau": 0.33625387234449317,
+      "min_kendall_tau": 0.0,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.2,
+      "label": "pct_20",
+      "mean_kendall_tau": 0.4966666666666667,
+      "std_kendall_tau": 0.3636084585252537,
+      "min_kendall_tau": -0.3333333333333334,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.25,
+      "label": "pct_25",
+      "mean_kendall_tau": 0.4466666666666667,
+      "std_kendall_tau": 0.3864942144169532,
+      "min_kendall_tau": -0.3333333333333334,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.3,
+      "label": "pct_30",
+      "mean_kendall_tau": 0.38000000000000006,
+      "std_kendall_tau": 0.42431644375918837,
+      "min_kendall_tau": -1.0,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.35,
+      "label": "pct_35",
+      "mean_kendall_tau": 0.35,
+      "std_kendall_tau": 0.4381146476031639,
+      "min_kendall_tau": -1.0,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.4,
+      "label": "pct_40",
+      "mean_kendall_tau": 0.33000000000000007,
+      "std_kendall_tau": 0.45824544611909557,
+      "min_kendall_tau": -1.0,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.45,
+      "label": "pct_45",
+      "mean_kendall_tau": 0.3000000000000001,
+      "std_kendall_tau": 0.4932882862316248,
+      "min_kendall_tau": -1.0,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.5,
+      "label": "pct_50",
+      "mean_kendall_tau": 0.26,
+      "std_kendall_tau": 0.5176442364747778,
+      "min_kendall_tau": -1.0,
+      "max_kendall_tau": 1.0
+    }
+  ]
+}

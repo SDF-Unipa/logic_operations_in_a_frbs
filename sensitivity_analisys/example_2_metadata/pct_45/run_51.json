@@ -1,0 +1,63 @@
+{
+  "run": 51,
+  "seed": 92,
+  "perturbation_pct": 0.45,
+  "deltas": {
+    "MichelRosselli/apertus": {
+      "English": 0.09077786656658587,
+      "Italian": -0.38173332622647305,
+      "Portuguese": -0.13471130003656573,
+      "Open_Sourceness": -0.1497465593127581,
+      "VRAM": -0.4158206106003036
+    },
+    "gemma4:e4b": {
+      "English": 0.3217237917530423,
+      "Italian": -0.4184946722755486,
+      "Portuguese": -0.44753808528786526,
+      "Open_Sourceness": 0.12313237533755089,
+      "VRAM": -0.412010111843067
+    },
+    "mistral-small3.2:24b": {
+      "English": -0.31340600553754916,
+      "Italian": -0.26906719891845204,
+      "Portuguese": -0.003187841917845935,
+      "Open_Sourceness": -0.06728821638384769,
+      "VRAM": -0.0359277256551902
+    },
+    "nemotron-cascade-2:30b": {
+      "English": 0.16431243457043115,
+      "Italian": -0.15705615412584,
+      "Portuguese": -0.4249774998527646,
+      "Open_Sourceness": 0.0030932154580148308,
+      "VRAM": -0.08857968729533533
+    }
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "model": "nemotron-cascade-2:30b",
+      "raw": 1.0509722001510646,
+      "normalized": 0.3273378791344863
+    },
+    {
+      "rank": 2,
+      "model": "gemma4:e4b",
+      "raw": 0.8736603474322837,
+      "normalized": 0.27211197895746025
+    },
+    {
+      "rank": 3,
+      "model": "MichelRosselli/apertus",
+      "raw": 0.6918033359731961,
+      "normalized": 0.2154704346538172
+    },
+    {
+      "rank": 4,
+      "model": "mistral-small3.2:24b",
+      "raw": 0.5942288978306235,
+      "normalized": 0.18507970725423625
+    }
+  ],
+  "kendall_tau": 0.0,
+  "kendall_pvalue": 1.0
+}

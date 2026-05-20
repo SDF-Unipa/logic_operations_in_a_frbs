@@ -1,0 +1,108 @@
+{
+  "global_seed": 42,
+  "n_runs": 100,
+  "original_ranking": [
+    "nemotron-cascade-2:30b",
+    "mistral-small3.2:24b",
+    "gemma4:e4b",
+    "MichelRosselli/apertus"
+  ],
+  "tolerances": [
+    {
+      "perturbation_pct": 0.01,
+      "label": "pct_1",
+      "mean_kendall_tau": 1.0,
+      "std_kendall_tau": 0.0,
+      "min_kendall_tau": 1.0,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.025,
+      "label": "pct_2p5",
+      "mean_kendall_tau": 1.0,
+      "std_kendall_tau": 0.0,
+      "min_kendall_tau": 1.0,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.05,
+      "label": "pct_5",
+      "mean_kendall_tau": 1.0,
+      "std_kendall_tau": 0.0,
+      "min_kendall_tau": 1.0,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.1,
+      "label": "pct_10",
+      "mean_kendall_tau": 0.9833333333333334,
+      "std_kendall_tau": 0.07264831572567787,
+      "min_kendall_tau": 0.6666666666666669,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.15,
+      "label": "pct_15",
+      "mean_kendall_tau": 0.9333333333333335,
+      "std_kendall_tau": 0.13333333333333328,
+      "min_kendall_tau": 0.6666666666666669,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.2,
+      "label": "pct_20",
+      "mean_kendall_tau": 0.8733333333333333,
+      "std_kendall_tau": 0.17499206331208905,
+      "min_kendall_tau": 0.3333333333333334,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.25,
+      "label": "pct_25",
+      "mean_kendall_tau": 0.8,
+      "std_kendall_tau": 0.22607766610417554,
+      "min_kendall_tau": 0.0,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.3,
+      "label": "pct_30",
+      "mean_kendall_tau": 0.7533333333333334,
+      "std_kendall_tau": 0.26085330062018464,
+      "min_kendall_tau": 0.0,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.35,
+      "label": "pct_35",
+      "mean_kendall_tau": 0.7233333333333334,
+      "std_kendall_tau": 0.28695721709767885,
+      "min_kendall_tau": 0.0,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.4,
+      "label": "pct_40",
+      "mean_kendall_tau": 0.6766666666666667,
+      "std_kendall_tau": 0.29610433596585134,
+      "min_kendall_tau": 0.0,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.45,
+      "label": "pct_45",
+      "mean_kendall_tau": 0.6433333333333334,
+      "std_kendall_tau": 0.30643106892089117,
+      "min_kendall_tau": 0.0,
+      "max_kendall_tau": 1.0
+    },
+    {
+      "perturbation_pct": 0.5,
+      "label": "pct_50",
+      "mean_kendall_tau": 0.5833333333333335,
+      "std_kendall_tau": 0.3244653722321964,
+      "min_kendall_tau": 0.0,
+      "max_kendall_tau": 1.0
+    }
+  ]
+}

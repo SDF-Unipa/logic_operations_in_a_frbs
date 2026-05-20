@@ -1,0 +1,28 @@
+{
+  "ranking": [
+    {
+      "rank": 1,
+      "model": "nemotron-cascade-2:30b",
+      "raw": 2.2965023372030555,
+      "normalized": 0.5475984355019795
+    },
+    {
+      "rank": 2,
+      "model": "mistral-small3.2:24b",
+      "raw": 1.2613615168256493,
+      "normalized": 0.30077025484649283
+    },
+    {
+      "rank": 3,
+      "model": "gemma4:e4b",
+      "raw": 0.6237176942876438,
+      "normalized": 0.1487247925045836
+    },
+    {
+      "rank": 4,
+      "model": "MichelRosselli/apertus",
+      "raw": 0.012189266784444576,
+      "normalized": 0.002906517146944192
+    }
+  ]
+}

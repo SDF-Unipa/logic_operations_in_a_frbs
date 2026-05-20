@@ -1,0 +1,16 @@
+Model                             USEFULNESS FACTUAL CORRECTNESS        TEXT QUALITY  Weight
+--------------------------------------------------------------------------------------------
+MichelRosselli/apertus                     9                   8                   7   0.003
+gemma4:e4b                                 9                   6                   9   0.149
+mistral-small3.2:24b                       6                   4                   7   0.301
+nemotron-cascade-2:30b                     6                   5                   7   0.548
+--------------------------------------------------------------------------------------------
+Weighted avg (ad-hoc)                  6.456               4.857               7.298
+Weighted avg (uniform)                   7.5                5.75                 7.5
+
+Criterion                    Ad-hoc  General (1/4)    Diff
+------------------------------------------------------------
+USEFULNESS                    6.456            7.5  -1.044
+FACTUAL CORRECTNESS           4.857           5.75  -0.893
+TEXT QUALITY                  7.298            7.5  -0.202
+
