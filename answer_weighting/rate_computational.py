@@ -8,10 +8,9 @@ import json
 from ollama import Client
 from tqdm import tqdm
 
-with open('/home/jnano/Desktop/utils/ollama_address.json') as f:
-    OLLAMA_ADDR = json.load(f)[0]['ollama-host']
 
-client = Client(host='http://' + OLLAMA_ADDR + ':11434')
+
+client = Client(host='http://localhost:11434')
 
 ALTERNATIVES = [
     ("A1", "answer.txt"),
